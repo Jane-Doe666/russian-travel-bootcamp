@@ -1,0 +1,9 @@
+.footer {
+  width: 1184px;
+  height: 18px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Inter";
+}

@@ -1,0 +1,9 @@
+.lead {
+  box-sizing: border-box;
+  width: 984px;
+  height: 1005px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

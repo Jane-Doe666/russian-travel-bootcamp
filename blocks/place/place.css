@@ -1,0 +1,14 @@
+.place {
+  box-sizing: border-box;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
+  row-gap: 48px;
+
+  width: 984px;
+  max-height: 660px;
+  grid-template-areas:
+    "title website"
+    "image paragraph";
+}

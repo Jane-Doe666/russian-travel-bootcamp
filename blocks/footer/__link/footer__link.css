@@ -1,0 +1,7 @@
+.footer__link {
+  align-self: flex-start;
+  margin-right: 18px;
+
+  min-width: 50px;
+  height: 18px;
+}
