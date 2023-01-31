@@ -1,4 +1,5 @@
 @import url(/vendor/normalize.css);
+@import url(/vendor/fonts/fonts.css);
 
 /* block */
 @import url(/blocks/page/page.css);
@@ -19,7 +20,7 @@
 @import url(/blocks/header/__link-ru/header__link-ru.css);
 @import url(/blocks/header/__link-en/header__link-en.css);
 
-@import url(/blocks/lead/__image/lead__img.css);
+@import url(/blocks/lead/__img/lead__img.css);
 @import url(/blocks/lead/__subtitle/lead__subtitle.css);
 @import url(/blocks/lead/__title/lead__title.css);
 @import url(/blocks/lead/__caption/lead__caption.css);
@@ -30,6 +31,8 @@
 @import url(/blocks/intro/__box/intro__box.css);
 
 @import url(/blocks/photo-grid/__item/photo-grid__item.css);
+@import url(/blocks/photo-grid/__list/photo-grid__list.css);
+@import url(/blocks/photo-grid/__photo/photo-grid__photo.css);
 
 @import url(/blocks/place/__link/place__link.css);
 @import url(/blocks/place/__url-heading/place__url-heading.css);
@@ -38,6 +41,8 @@
 @import url(/blocks/place/__image/place__image.css);
 @import url(/blocks/place/__paragraph/place__paragraph.css);
 @import url(/blocks/place/__paragraphs/place__paragraphs.css);
+
+
 
 @import url(/blocks/cover/__subtitle/cover__subtitle.css);
 @import url(/blocks/cover/__title/cover__title.css);

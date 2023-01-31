@@ -1,0 +1,18 @@
+@font-face {
+  src: 
+  url(https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap.woff2) format('woff2'),
+  url(https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap.woff) format('woff'),
+  url(https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap.ttf) format('truetype');
+font-family:'Inter';
+font-weight: normal;
+}
+
+@font-face {
+src: 
+  url(https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap.woff2) format('woff2'),
+  url(https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap.woff) format('woff'),
+  url(https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap.ttf) format('truetype');
+font-family: 'Inter';
+font-weight: bold;
+}
+

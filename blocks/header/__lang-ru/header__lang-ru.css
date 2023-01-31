@@ -15,3 +15,20 @@
   text-align: right;
   /* text-decoration-line: ; */
 }
+
+@media screen and (max-width: 320px) {
+  .header__lang-ru {
+    width: 22px;
+    height: 20px;
+    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    
+    text-align: right;
+  }
+}

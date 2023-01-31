@@ -1,14 +1,34 @@
 .place {
   box-sizing: border-box;
+  margin: auto;
   margin-bottom: 80px;
+  max-width: 984px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1fr, 2);
+  /* width: 76.875%; */
+  /* grid-template-columns: repeat(440px, 484px); */
+  grid-template-rows: fit-content(100%);
   column-gap: 40px;
   row-gap: 48px;
-
-  width: 984px;
-  max-height: 660px;
   grid-template-areas:
     "title website"
     "image paragraph";
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    width: 90.675%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    width: 100%; 
+  }
 }

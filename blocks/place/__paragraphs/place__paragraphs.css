@@ -1,4 +1,28 @@
 .place__paragraphs {
+  grid-area: paragraph;
+ 
   display: flex;
   flex-direction: column;
+  max-width: 484px;
+  width: 100%;
+  /* border: 1px solid red; */
+
 }
+
+/* @media screen and (max-width: 1279px) {
+  .place__paragraphs {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .place__paragraphs {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .place__paragraphs {
+    max-width: 288px;
+  }
+} */

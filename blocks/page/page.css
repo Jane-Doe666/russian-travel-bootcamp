@@ -1,7 +1,33 @@
 .page {
-  width: 1280px;
-  height: 6875px;
+  box-sizing: border-box;
+  max-width: 1280px;
+  max-height: 6875px;
+  width: 100%;
   padding-top: 28px;
   background: #2a2c2f;
   color: #ffffff;
 }
+
+@media screen and (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+    max-height: 6895px;
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+    max-height: 6855px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    padding-top: 16px;
+    max-width: 320px;
+    max-height: 10023px;
+  }
+}
+

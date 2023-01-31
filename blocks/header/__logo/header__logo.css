@@ -1,7 +1,12 @@
 .header__logo {
-  /* position: absolute; */
-  width: 176px;
-  height: 52px;
-  left: 48px;
-  top: 28px;
+  max-width: 176px;
+  width: 100%;
+  min-height: 52px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    max-width: 142px;
+    max-height: 42px;
+  }
 }
