@@ -3,29 +3,14 @@
   max-width: 360px;
   width: 100%;
   margin-top: 32px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   /* or 122% */
-
   text-align: center;
   z-index: 2;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover__subtitle {
-
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-
-
-  }
 }
 
 @media screen and (max-width: 320px) {
