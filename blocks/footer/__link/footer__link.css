@@ -1,7 +1,12 @@
 .footer__link {
   align-self: flex-start;
   margin-right: 18px;
+}
 
-  min-width: 50px;
-  height: 18px;
+@media screen and (max-width: 320px) {
+  .footer__link {
+    flex-direction: column;
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
 }

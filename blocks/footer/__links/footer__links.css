@@ -5,3 +5,11 @@
   display: flex;
   flex-direction: row;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__links {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+}

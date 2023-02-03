@@ -1,9 +1,32 @@
 .places {
-  /* margin: auto;
-  box-sizing: border-box; */
+  margin: auto;
+  box-sizing: border-box;
   margin-top: 92px;
   margin-bottom: 12px;
-  /* width: 100%; */
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    /* max-width: 928px; */
+    max-width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    /* max-width: 720px; */
+    max-width: 93.75%;
+    margin-top: 88px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    max-width: 100%; 
+    margin-top: 64px;
+  }
 }
 
 

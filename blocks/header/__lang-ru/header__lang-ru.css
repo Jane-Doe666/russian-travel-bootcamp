@@ -1,9 +1,8 @@
 .header__lang-ru {
   margin: 0;
-  width: 30px;
-  height: 28px;
+  max-width: 30px;
+  max-height: 28px;
   margin: 18px 18px 6px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -11,22 +10,19 @@
   line-height: 28px;
 
   /* identical to box height, or 117% */
-
   text-align: right;
-  /* text-decoration-line: ; */
 }
 
 @media screen and (max-width: 320px) {
   .header__lang-ru {
-    width: 22px;
-    height: 20px;
-    
-    
+    max-width: 22px;
+    max-height: 20px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
+    margin: 18px 18px 6px;
     /* identical to box height, or 111% */
     
     text-align: right;

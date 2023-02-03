@@ -1,7 +1,7 @@
 .page {
   box-sizing: border-box;
   max-width: 1280px;
-  max-height: 6875px;
+  min-height: 6875px;
   width: 100%;
   padding-top: 28px;
   background: #2a2c2f;
@@ -11,15 +11,14 @@
 @media screen and (max-width: 1024px) {
   .page {
     max-width: 1024px;
-    max-height: 6895px;
-    
+    min-height: 6895px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .page {
     max-width: 768px;
-    max-height: 6855px;
+    min-height: 6855px;
   }
 }
 
@@ -27,7 +26,6 @@
   .page {
     padding-top: 16px;
     max-width: 320px;
-    max-height: 10023px;
   }
 }
 

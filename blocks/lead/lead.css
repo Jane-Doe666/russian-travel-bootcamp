@@ -12,15 +12,15 @@
 @media screen and (max-width: 1024px) {
   .lead {
     max-width: 928px;
-    max-height: 962px;
+    /* max-height: 962px; */
     /* max-height: calc(100% - 48px * 2); */
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .lead {
     max-width: 768px;
-    max-height: 862px;
+    /* max-height: 862px; */
     width: 100%;
   }
 }
@@ -28,6 +28,6 @@
 @media screen and (max-width: 320px) {
   .lead {
     max-width: 320px;
-    max-height: 406px;
+    /* max-height: 406px; */
   }
 }

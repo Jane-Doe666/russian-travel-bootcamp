@@ -5,3 +5,23 @@
   width: 100%;
   align-self: flex-end;
 }
+
+/* @media screen and (max-width: 1024px) {
+  .place__website  {
+    column-gap: 32px;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .place__website  {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website  {
+    max-width: 288px;
+    align-self: center;
+
+  }
+}

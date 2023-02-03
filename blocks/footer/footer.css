@@ -1,11 +1,28 @@
 .footer {
   max-width: 1184px;
   padding-bottom: 24px;
-  width: 100%;
-  height: 18px;
   margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-family: "Inter";
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: calc(100% - 2 * 48px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: calc(100% - 2 * 24px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    margin-left: 16px;
+    flex-direction: column;
+  }
 }

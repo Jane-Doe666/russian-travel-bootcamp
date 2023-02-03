@@ -1,4 +1,4 @@
-.footer__link_link {
+.footer__link-path {
   color: #fff;
   text-decoration: none;
   font-family: "Inter";
@@ -6,4 +6,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link-path {
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
