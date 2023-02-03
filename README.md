@@ -17,7 +17,7 @@
 
 **GitHub**
 
-* [Ссылка на GitHub](https://github.com/Jane-Doe666/how-to-learn-bootcamp/tree/main/pages)
+* [Ссылка на GitHub](https://github.com/Jane-Doe666/russian-travel-bootcamp)
 
 **Картинки**
 
