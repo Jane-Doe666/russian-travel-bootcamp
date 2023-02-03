@@ -3,7 +3,7 @@
   width: 100%;
   margin: 92px auto;
   min-height: 740px;
-  background-image: url(../images/Baikal/__background1280.png);
+  background-image: url(../../images/Baikal/__background1280.png);
 }
 
 @media screen and (max-width: 1024px) {
