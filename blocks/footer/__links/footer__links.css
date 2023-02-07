@@ -6,7 +6,7 @@
   flex-direction: row;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 730px) {
   .footer__links {
     flex-direction: column;
     justify-content: space-between;

@@ -1,7 +1,6 @@
 .footer__copyright {
   margin: 0;
   padding: 0;
-  max-width: 186px;
   width: 100%;
 
   font-family: "Inter";
@@ -14,7 +13,7 @@
   text-align: right;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 730px) {
   .footer__copyright {
     flex-direction: column;
     text-align: left;

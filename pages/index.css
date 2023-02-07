@@ -2,33 +2,36 @@
 @import url(../vendor/fonts/fonts.css);
 
 /* block */
+@import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
+@import url(../blocks);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/link/link.css);
 
 /* elements */
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__lang-en/header__lang-en.css);
-@import url(../blocks/header/__lang-ru/header__lang-ru.css);
+@import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__langs/header__langs.css);
-@import url(../blocks/header/__link-ru/header__link-ru.css);
-@import url(../blocks/header/__link-en/header__link-en.css);
+@import url(../blocks/header/__link/header__link.css);
 
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__img/lead__img.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__title/lead__title.css);
-@import url(../blocks/lead/__caption/lead__caption.css);
 
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__box/intro__box.css);
+@import url(../blocks/intro/__digits/intro__digits.css);
 
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/photo-grid/__list/photo-grid__list.css);
@@ -50,7 +53,11 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link-path/footer__link-path.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
 
 /* modif */
 @import url(../blocks/place/__paragraph/_first/place__paragraph_first.css);
+@import url(../blocks/header/__lang/_active/header__lang_active.css);
+
+* { outline: 1px solid yellowgreen; }
 

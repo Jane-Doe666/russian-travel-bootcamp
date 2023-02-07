@@ -1,7 +1,5 @@
 .place__link {
-  width: 456px;
-  height: 22px;
-
+  max-width: 100%;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;

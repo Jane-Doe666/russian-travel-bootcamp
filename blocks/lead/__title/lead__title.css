@@ -13,15 +13,10 @@
   text-align: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
   .lead__title {
     max-width: 288px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
     font-size: 40px;
     line-height: 44px;
-    /* or 110% */
-    text-align: center;
   }
 }

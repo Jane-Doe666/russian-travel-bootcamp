@@ -3,7 +3,11 @@
   margin-right: 18px;
 }
 
-@media screen and (max-width: 320px) {
+.footer__link:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 730px) {
   .footer__link {
     flex-direction: column;
     margin-right: 0px;

@@ -1,16 +1,9 @@
 .place__website {
   grid-area: website;
   max-width: 456px;
-  min-height: 46px;
   width: 100%;
   align-self: flex-end;
 }
-
-/* @media screen and (max-width: 1024px) {
-  .place__website  {
-    column-gap: 32px;
-  }
-} */
 
 @media screen and (max-width: 768px) {
   .place__website  {
@@ -18,10 +11,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .place__website  {
     max-width: 288px;
     align-self: center;
-
   }
 }

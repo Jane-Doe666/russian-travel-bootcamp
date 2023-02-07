@@ -1,7 +1,5 @@
-.header__lang-ru {
-  max-width: 30px;
-  max-height: 28px;
-  margin: 18px 18px 6px;
+.header__lang {
+  margin: 18px 0px 6px 18px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -13,15 +11,9 @@
 }
 
 @media screen and (max-width: 320px) {
-  .header__lang-ru {
-    max-width: 22px;
-    max-height: 20px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
+  .header__lang {
     font-size: 18px;
     line-height: 20px;
-    margin: 18px 18px 6px;
     /* identical to box height, or 111% */
     
     text-align: right;

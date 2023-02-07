@@ -1,13 +1,6 @@
 .intro__box {
   max-width: 690px;
-  min-height: 429px;
   width: 100%;
-}
-
-@media screen and (max-width: 1024px) {
-  .intro__box {
-    /* max-height: 580px; */
-  }
 }
 
 @media screen and (max-width: 768px) {

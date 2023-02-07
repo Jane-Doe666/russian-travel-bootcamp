@@ -8,29 +8,21 @@
   font-size: 72px;
   line-height: 76px;
   /* or 106% */
-
   text-align: center;
   z-index: 2;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover_title {
-
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover_title {
-
-
+@media screen and (max-width: 600px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .cover_title {
-    margin-top: 0px;
-    max-width: 288px;
-    font-weight: 900;
+  .cover__title {
+    max-width: 250px;
     font-size: 32px;
     line-height: 35px;
   }

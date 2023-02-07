@@ -1,7 +1,5 @@
 .place {
-  /* box-sizing: border-box; */
-  margin: auto;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
   max-width: 984px;
   width: 100%;
   display: grid;
@@ -27,7 +25,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 364px) {
   .place {
     display: flex;
     row-gap: 32px;

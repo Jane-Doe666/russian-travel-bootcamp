@@ -1,9 +1,0 @@
-.header__link-en {
-  color: white;
-  text-decoration: none;
-}
-
-.header__link-en:focus {
-  text-decoration: underline;
-  outline: none;
-}
