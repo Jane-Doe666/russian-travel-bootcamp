@@ -12,7 +12,7 @@
 
 **GitHub**
 
-* [Ссылка на GitHub](https://github.com/Jane-Doe666/russian-travel-bootcamp)
+* [Ссылка на GitHub](https://jane-doe666.github.io/russian-travel-bootcamp/)
 
 **Ссылки**
 
