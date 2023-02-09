@@ -2,25 +2,3 @@
   width: 100%;
 }
 
-/* @media screen and (max-width: 1024px) {
-  .lead__img {
-    max-width: 928px;
-    max-height: 580px;
-    margin-top: 56px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead__img {
-    max-width: 768px;
-    max-height: 480px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead__img {
-    max-width: 320px;
-    max-height: 200px;
-    margin-top: 40px;
-  }
-} */

@@ -4,7 +4,7 @@
   margin: 92px auto;
   min-height: 740px;
   background-image: url(../../images/Baikal/__background1280.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -12,6 +12,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  z-index: 1;
 }
 
 .cover:before {
@@ -24,6 +25,7 @@
   background-color: #2a2c2f;
   opacity: 30%;
   transition: 300ms;
+  z-index: -1;
 }
 
 .cover:hover:before {
